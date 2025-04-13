@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.container {
+    width: 50%;
+    height: 50vh;
+    background-color: #b7b4b4;
+    min-height: 400px;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #8f8c8c;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.duelo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.card:hover {
+ 
+    transform: scale(1.1);
+}
+
+
+button{
+    background-color: bisque;
+    border-radius: 8px;
+    border: 0;
+    color: darkblue;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+button:hover{
+    background-color: red;
+    transform: scale(1.5);
+}
+
+button:active{
+    background-color: blue;
+    transform: scale(1.5);
+}
